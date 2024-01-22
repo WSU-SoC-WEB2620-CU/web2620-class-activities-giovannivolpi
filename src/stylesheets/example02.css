@@ -1,4 +1,4 @@
-/* TODO: Example 02 (Activity 3) CSS goes here */
+
 
 html{
     box-sizing: border-box;
@@ -43,6 +43,8 @@ nav > ul > li{
     display: table;
 }
 
+/* Style Link */
+
 nav a:link, nav a:visited, nav a:active{
     text-decoration: none;
     color: antiquewhite;
@@ -76,8 +78,7 @@ img{
 }
 
 article > h1::before{
-    counter-increment: article;
-    content: "Article" counter(article) ":";
+    counter-increment: article; /* increase the value of article by 1*/
+    content: "Article" counter(article) ":"; /* display the word "Article", the vlaue of the article counter, and a colon before the content of each h1*/
     color: blue;
-
 }
