@@ -82,3 +82,27 @@ article > h1::before{
     content: "Article" counter(article) ":"; /* display the word "Article", the vlaue of the article counter, and a colon before the content of each h1*/
     color: blue;
 }
+
+/*Styling circles*/
+
+.circle{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: .5rem;
+    background-color: #9c6e79;
+    color: black;
+    font: 2rem;
+    text-align: center;
+}
+
+.vcenter{
+    line-height: 200px;
+
+}
+
+.vcenter{
+    line-height: 200px;
+    margin: 0 calc((100% - 800px)/8);
+}
