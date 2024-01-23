@@ -47,12 +47,12 @@ nav > ul > li{
 
 nav a:link, nav a:visited, nav a:active{
     text-decoration: none;
-    color: antiquewhite;
+    color: grey;
 }
 
 nav a:hover{
     text-decoration: none;
-    color: beige;
+    color: maroon;
 }
 
 footer{
@@ -102,7 +102,49 @@ article > h1::before{
 
 }
 
-.vcenter{
+.vcenter2{
     line-height: 200px;
     margin: 0 calc((100% - 800px)/8);
+}
+
+/*Equal-height columns*/
+
+.column{
+    float: left;
+    padding: 10px;
+    color: black;
+}
+
+.left-col{
+    background-color: aqua;
+    width: 25%;
+    padding: 10px;
+}
+
+.middle-col{
+    background-color: lightblue;
+    width: 25%;
+    padding: 10px;
+}
+
+.right-col{
+    background-color: lightcoral;
+    width: 25%;
+    padding: 10px;
+}
+
+.equal-height{
+    display: table;
+}
+
+.equal-height .column{
+    display: table-cell;
+    float: none;
+}
+
+/*Multi-column*/
+
+.multi-col{
+    columns: 3;
+    column-gap: 2rem;
 }
