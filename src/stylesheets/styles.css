@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif; /* You may change the font */
+    background-color: #f0f0f0; /* You may change the background color */
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #333; /* You may change the background color */
+    color: #fff; /* You may change the text color */
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 10px;
+}
+
+.middle {
+    flex: 2;
+    padding: 10px;
+}
+
+.left, .right, .middle {
+    background-color: #fff; /* You may change the background color */
+    border: 1px solid #ccc; /* You may change the border color */
+    margin: 10px;
+}
+
+.left h2, .right h2, .middle h2 {
+    margin-top: 0;
+}
