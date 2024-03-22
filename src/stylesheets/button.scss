@@ -33,22 +33,4 @@
         }
     }
 
-    /*
-    &.primary {
-        @include make-button($primary-color);
-        }
-    &.secondary {
-        @include make-button($secondary-color);
-        }
-    &.success {
-        @include make-button($success-color);
-        }
-    &.error {
-        @include make-button($error-color);
-        }
-    &.primary {
-        @include make-button($warning-color);
-    } 
-
-    */
 } 
